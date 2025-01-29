@@ -6,18 +6,24 @@ Turning your Python script into a standalone .exe file is simple with PyInstalle
 
 First, install PyInstaller if you haven’t already:
 
-```pip install pyinstaller```
+```python
+pip install pyinstaller
+```
 
 ### 2. Convert the Script to an Executable
 
 Run the following command in the terminal or command prompt:
 
-```pyinstaller --onefile --windowed yourscript.py```
+```python
+pyinstaller --onefile --windowed yourscript.py
+```
 
 Explanation of Flags:
 
-    `--onefile`: Creates a single executable instead of multiple files.
-    `--windowed` (optional): Hides the console window (useful for GUI applications). Omit this flag for CLI scripts.
+```
+    --onefile: Creates a single executable instead of multiple files.
+    --windowed (optional): Hides the console window (useful for GUI applications). Omit this flag for CLI scripts.
+```
 
 ### 3. Find the Executable
 
