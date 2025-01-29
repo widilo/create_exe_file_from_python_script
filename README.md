@@ -1,7 +1,7 @@
 # create_exe_file_from_python_script
 Create a Windows Executable from a Python Script
 
-How to Create a Windows Executable from a Python Script
+# How to Create a Windows Executable from a Python Script
 
 Turning your Python script into a standalone .exe file is simple with PyInstaller. Follow this guide to generate an executable that can run on Windows without requiring Python installation.
 1. Install PyInstaller
